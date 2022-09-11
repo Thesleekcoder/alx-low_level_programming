@@ -1,33 +1,28 @@
-
-
-
-
-
-
-
-
-
-
-
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* * Main - Entry point
+
+/**
+ * 	* Main -> This assigns a random number to the variable  n each time the code is executed
  *
- * * Return: Always 0 (Success)
+ * 	and print the last digit of the stored  in the  n variable
+ *
+ * 	* Return: ALways 0 (Success)
  *
  */
-int void (main)
+
+int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-if (n == 0)
-	printf("%d is zero\n", n);
-else if (n < 0)
-	printf("%d is negative\n", n);
-else
-	printf("%d is positive\n", n);
-return (0);
+	int n;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	if (n == 0)
+			printf("%d is zero\n", n);
+	if (n < 0)
+	{
+		printf("% is negative\n", n);
+	}
+	return (0);
 }
