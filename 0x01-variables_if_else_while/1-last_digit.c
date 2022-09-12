@@ -8,7 +8,7 @@
  * this program print "Programming is positive, zero, or negative"
  * Return:0
  */
-int main(void)
+int main (void)
 {
 int n, 1;
 srand(time(0));
