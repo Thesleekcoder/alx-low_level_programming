@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * *Main - print if the number is positive, zero or negative
  *
@@ -8,7 +9,8 @@
  * this program print "Programming is positive, zero, or negative"
  * Return:0
  */
-int main (void)
+
+int main(void)
 {
 int n, 1;
 srand(time(0));
