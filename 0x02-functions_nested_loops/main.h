@@ -14,7 +14,7 @@ int _putchar(char c)
   return (write(1, &c, 1));
 }
 
-===================================
+
 
 main.h
 
@@ -38,5 +38,3 @@ void print_times_table(int n);
 void num(int r, int n);
 
 #endif
-
-===================================
