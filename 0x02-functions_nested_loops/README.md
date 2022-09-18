@@ -1,1 +1,1 @@
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9.
+14. In computer class, the first assignment was to write a program to print the first 100 Fibonacci numbers. Instead, I wrote a program that would steal passwords of students. My teacher gave me an A
