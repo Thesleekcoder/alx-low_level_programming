@@ -1,29 +1,17 @@
 #include "main.h"
 
 /**
- * puts_half - Function prints half of a string
- * @str: The string to use
+ * puts2 - Function prints one char out of two
+ * @str: string to use
  *
  */
-void puts_half(char *str)
+void puts2(char *str)
 {
-	int size = 0;
-	int n;
+	int i, j;
 
-	for (; str[size] != '\0'; size++)
-	{}
-	if (size % 2 == 0)
-	{
-		n = size / 2;
-	}
-	else
-	{
-		n = (size + 1) / 2;
-	}
-
-	for (; str[n] != '\0'; n++)
-	{
-		_putchar(str[n]);
-	}
+	for (i = 0; str[i]; i++)
+		;
+	for (j = 0; j < i; j += 2)
+		_putchar(str[j]);
 	_putchar('\n');
 }

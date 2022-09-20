@@ -1,1 +1,1 @@
-Create a program that generates random valid passwords for the program 101-crackme.
+Write a function that prints every other character of a string, starting with the first character, followed by a new line.
