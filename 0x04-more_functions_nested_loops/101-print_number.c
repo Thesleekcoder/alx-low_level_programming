@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
  * print_number - Function prints an integer
  * @n: The number to print
@@ -9,6 +10,7 @@
 void print_number(int n)
 {
 	unsigned int n1;
+
 	if (n < 0)
 	{
 		_putchar('-');
