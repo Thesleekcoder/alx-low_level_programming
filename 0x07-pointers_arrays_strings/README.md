@@ -1,1 +1,1 @@
-Write a function that gets the length of a prefix substring.
+Write a function that prints the chessboard.
