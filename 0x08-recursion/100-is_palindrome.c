@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * lenS - function returns string length
  * @s: string to check
