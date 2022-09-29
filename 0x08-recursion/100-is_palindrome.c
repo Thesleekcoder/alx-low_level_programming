@@ -6,7 +6,7 @@
  *
  * Return: string length
  */
-int lenS(char *s)
+int is_palindrome(char *s)
 {
 	if (*s == '\0')
 		return (0);
