@@ -8,6 +8,7 @@
  *
  * Return: pointer to memory space, or 98 is malloc fails
  */
+
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
